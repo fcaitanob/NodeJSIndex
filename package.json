@@ -1,0 +1,21 @@
+{
+  "name": "nodejsindex",
+  "version": "1.0.0",
+  "description": "Prueba básicas con index",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcaitanob/NodeJSIndex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fcaitanob/NodeJSIndex/issues"
+  },
+  "homepage": "https://github.com/fcaitanob/NodeJSIndex#readme"
+}
