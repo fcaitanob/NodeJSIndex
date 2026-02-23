@@ -1,2 +1,2 @@
 # NodeJSIndex
-Prueba básicas con index
+Pruebas básicas con Node.js
