@@ -1,11 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mi servidor Node</title>
+  <title>Mi Portal</title>
+  <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
-  <h1>Servidor funcionando 🚀</h1>
-  <p>Este HTML está en un archivo separado.</p>
+
+  <header>
+    <h1>Mi Portal</h1>
+  </header>
+
+  <nav>
+    <ul class="menu">
+      
+      <li class="dropdown">
+        <a href="#">Inicio</a>
+        <ul class="submenu">
+          <li><a href="#">item1</a></li>
+          <li><a href="#">item2</a></li>
+          <li><a href="#">item3</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="#">Saludo</a>
+        <ul class="submenu">
+          <li><a href="#" id="saludo1">item1</a></li>
+          <li><a href="#" id="saludo2">item2</a></li>
+          <li><a href="#" id="saludo3">item3</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="#">Clientes</a>
+        <ul class="submenu">
+          <li><a href="#" id="clientes1">item1</a></li>
+          <li><a href="#" id="clientes2">item2</a></li>
+          <li><a href="#" id="clientes3">item3</a></li>
+        </ul>
+      </li>
+
+    </ul>
+  </nav>
+
+
+  <main>
+    <h2>Bienvenido</h2>
+    <div id="contenido">
+      Seleccioná una opción del menú.
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 - Mi Portal</p>
+  </footer>
+
+  <script src="/app.js"></script>
 </body>
 </html>

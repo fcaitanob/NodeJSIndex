@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/style.css">
+  <title>Mi servidor Node</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <h1>Servidor funcionando 🚀</h1>
+  <p>Este HTML está en un archivo separado.</p>
+
+  <div id="botones">
+    <button id="btnSaludo">Probar /api/saludo</button>
+    <p></p>
+  </div>
+  <div id="resultado"></div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
